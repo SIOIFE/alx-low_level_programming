@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Entry point
- * Description: 'print single digit number of base 10 from 0'
+ * Description: 'print number of base 10 using putchar'
  * Return: always 0
  */
 int main(void)
@@ -11,8 +10,8 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		printf("%d", n);
+		putchar(n + 48);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

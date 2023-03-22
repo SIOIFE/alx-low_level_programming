@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - print _putchar
  * Description: 'print _putchar to stdout'
- * Return: always 0
+ * Return: 0
  */
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');

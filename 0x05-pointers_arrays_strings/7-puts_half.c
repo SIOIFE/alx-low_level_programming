@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strien - returns the length of a string
+ * _strien - returns the length of a string
  * @s: string
  * Return: lenght
  */
@@ -13,5 +13,6 @@ int _strien(har *s)
 		longi++;
 		s++;
 	}
+
 	return (longi);
 }

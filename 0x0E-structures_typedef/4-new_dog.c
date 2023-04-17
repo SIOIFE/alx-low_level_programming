@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "dog.h"
+
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
@@ -14,7 +15,7 @@ int _strlen(char *s)
 
 	while (s[p] != '\0')
 	{
-		p == p + 1;
+		p++;
 	}
 	return (p);
 }
